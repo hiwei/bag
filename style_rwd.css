@@ -1,0 +1,332 @@
+.slogan, .right_info p, .description {
+	font-family: Hind Guntur;
+}
+.slogan, .right_info p {
+	font-weight: 700;
+}
+.notice, .nav, .total_money, .pay, .caption, .description {
+	font-weight: 600;
+}
+.slogan {
+	font-size: 70pt;
+	letter-spacing: 3px;
+	line-height: 120%;
+	text-shadow: 2px 2px 0 #CDF;
+}
+.description {
+	font-size: 40pt;
+	line-height: 120%;
+	text-shadow: 2px 2px 0 #fff;
+}
+.last_button, .next_button, .right_info p, .notice{
+	font-size: 30pt;
+}
+.buy, .close_cart, .caption, .right_info  {
+	font-size: 20pt;
+}
+.intro, .nav, .left_info, .footer  {
+	font-size: 14pt;
+}
+.delete_item {
+	font-size: 12pt;
+}
+.caption, .left_info, .footer, .notice, .intro {
+	letter-spacing: 1px;
+}
+.right_info p, .description, .nav {
+	letter-spacing: 2px;
+}
+.footer {
+	line-height: 150%;
+}
+@media screen and (min-width: 1441px) and (max-width: 1620px) {
+	.buy {
+		width: 35%;
+	}
+	.close_cart {
+		right: 27%;
+	}
+	.total_money {
+		width: 25%;
+	}
+	.slogan {
+		font-size: 65pt;
+	}
+	.description {
+		font-size: 36pt;
+	}
+}
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+	.buy {
+		width: 40%;
+	}
+	.close_cart {
+		right: 24%;
+	}
+	.total_money {
+		width: 30%;
+	}
+	.right_info p:hover::after {
+		margin: -75px 0 0 -20px;
+		border-bottom: 65px solid #CDF;
+	}
+	.slogan {
+		font-size: 60pt;
+	}
+	.description {
+		font-size: 32pt;
+	}
+	.last_button, .next_button, .right_info p, .notice{
+		font-size: 28pt;
+	}
+	.buy, .close_cart, .caption, .right_info  {
+		font-size: 18pt;
+	}
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+	.buy {
+		width: 40%;
+	}
+	.close_cart {
+		right: 24%;
+	}
+	.total_money {
+		width: 30%;
+	}
+	.right_info p {
+		margin-top: 50px;
+	}
+	.right_info p::after {
+		margin: -35px 0 0 -10px;
+		border-bottom: 25px solid #CDF;
+	}
+	.right_info p:hover::after {
+		margin: -55px 0 0 -20px;
+		border-bottom: 45px solid #CDF;
+	}
+	.slogan {
+		font-size: 55pt;
+	}
+	.description {
+		font-size: 24pt;
+	}
+	.last_button, .next_button, .right_info p, .notice{
+		font-size: 22pt;
+	}
+	.buy, .close_cart, .caption, .right_info  {
+		font-size: 18pt;
+	}
+	.intro, .nav, .left_info, .footer  {
+		font-size: 12pt;
+	}
+	.delete_item {
+		font-size: 10pt;
+	}
+}
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+	.buy {
+		width: 60%;
+	}
+	.close_cart {
+		right: 12%;
+	}
+	.total_money {
+		width: 50%;
+	}
+	.slogan {
+		margin-top: 30%;
+		font-size: 45pt;
+	}
+	.description {
+		font-size: 18pt;
+		line-height: 120%;
+		text-shadow: 2px 2px 0 #fff;
+	}
+	.notice {
+		width: 80%;
+	}
+	.intro {
+		width: 80%;
+		column-count: 1;
+		margin: auto;
+		margin-top: 5%;
+	}
+	.outer {
+		width: 100%;
+	}
+	.item {
+		left: 10%;
+		width: 80%;
+		padding-top: 10%;
+	}
+	.caption, .left_info, .right_info {
+		opacity: 1;
+	}
+	.last_button, .next_button {
+		display: none;
+	}
+	.right_info {
+		border-bottom: 5px #CDF solid;
+	}
+	.right_info p {
+		padding: 0;
+		margin-top: 50px;
+	}
+	.right_info p::after {
+		margin: 0;
+		border-bottom: 0px;
+	}
+	.right_info p:hover {
+		color: #8AE;
+	}
+	.right_info p:hover::after {
+		margin: 0;
+		border-bottom: 0px;
+	}
+	.right_info p {
+		font-size: 30pt;
+	}
+	.notice{
+		font-size: 20pt;
+	}
+	.buy, .close_cart, .caption, .right_info  {
+		font-size: 16pt;
+	}
+	.intro, .nav, .left_info  {
+		font-size: 14pt;
+	}
+	.delete_item {
+		font-size: 12pt;
+	}
+	.footer {
+		margin-top: 20%;
+		padding: 2% 10%;
+		width: 80%;
+		line-height: 150%;
+		font-size: 12pt;
+	}
+}
+@media screen and (min-width: 0px) and (max-width: 640px) {
+	.buy {
+		width: 60%;
+	}
+	.close_cart {
+		top: 9%;
+		right: 10%;
+	}
+	.total_money {
+		width: 50%;
+	}
+	.slogan {
+		margin-top: 40%;
+		font-size: 30pt;
+	}
+	.description {
+		display: none;
+	}
+	.notice {
+		width: 90%;
+	}
+	.intro {
+		width: 90%;
+		column-count: 1;
+		margin: auto;
+		margin-top: 5%;
+	}
+	.outer {
+		width: 100%;
+	}
+	.item {
+		left: 5%;
+		width: 90%;
+		padding-top: 10%;
+	}
+	.caption, .left_info, .right_info {
+		opacity: 1;
+	}
+	.last_button, .next_button {
+		display: none;
+	}
+	.right_info {
+		border-bottom: 3px #CDF solid;
+	}
+	.right_info p {
+		padding: 0;
+		margin-top: 50px;
+	}
+	.right_info p::after {
+		margin: 0;
+		border-bottom: 0px;
+	}
+	.right_info p:hover {
+		color: #8AE;
+	}
+	.right_info p:hover::after {
+		margin: 0;
+		border-bottom: 0px;
+	}
+	.right_info p {
+		font-size: 20pt;
+	}
+	.notice{
+		font-size: 16pt;
+	}
+	.buy, .close_cart, .caption, .right_info  {
+		font-size: 14pt;
+	}
+	.intro, .nav, .left_info  {
+		font-size: 12pt;
+	}
+	.nav {
+		top: 3%;
+	}
+	.delete_item {
+		font-size: 10pt;
+	}
+	.footer {
+		margin-top: 20%;
+		padding: 2% 10%;
+		width: 80%;
+		line-height: 150%;
+		font-size: 9pt;
+	}
+}
+
+/* HEIGHT */
+/*
+@media screen and (min-height: 481px) and (max-height: 900px) {
+	.buy {
+		height: 80%;
+		padding: 1%;
+		font-size: 18pt;
+	}
+	.total_money {
+		bottom: 22%;
+		width: 20%;
+		padding-top: 1%;
+	}
+	.pay {
+		bottom: 10%;
+		padding: 20px 0;
+	}
+}
+@media screen and (min-height: 641px) and (max-height: 720px) {
+	.slogan {
+		margin-top: 5%;
+		font-size: 60pt;
+	}
+	.description {
+		font-size: 36pt;
+	}
+	.buy {
+		font-size: 16pt;
+	}
+}
+@media screen and (min-height: 481px) and (max-height: 640px) {
+	.buy {
+		font-size: 14pt;
+	}
+	.delete_item {
+		font-size: 10pt;
+	}
+}*/
