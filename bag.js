@@ -96,11 +96,11 @@ $(document).ready(function(){
 		}
 		if ( item_num == 2 ) {
 			$('.last_button').css('opacity','1');
-			$('.last_button:hover').css('cursor','pointer');
+			$('.last_button').removeClass('cursor_ori');
 		}
 		if ( item_num == 9 ) {
 			$('.next_button').css('opacity','0');
-			$('.next_button:hover').css('cursor','default');
+			$('.next_button').addClass('cursor_ori');
 		}
 	});
 	$('.last_button').click(function() {
@@ -114,11 +114,11 @@ $(document).ready(function(){
 		}
 		if ( item_num == 1 ) {
 			$('.last_button').css('opacity','0');
-			$('.last_button:hover').css('cursor','default');
+			$('.last_button:hover').addClass('cursor_ori');
 		}
 		if ( item_num == 8 ) {
 			$('.next_button').css('opacity','1');
-			$('.next_button').css('cursor','pointer');
+			$('.next_button').removeClass('cursor_ori');
 		}
 	});
 });
